@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for, request, redirect, jsonify
 from pymongo import MongoClient
 from flask_bcrypt import Bcrypt
 from bson import ObjectId
-app = Flask(__name__)
+from app import app
 bcrypt = Bcrypt(app)
 #our Mongo DB
 client = MongoClient('localhost', 27017)

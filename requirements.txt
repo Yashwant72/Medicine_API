@@ -1,0 +1,6 @@
+flask
+pymongo
+flask_bcrypt
+bson
+numpy
+pandas
